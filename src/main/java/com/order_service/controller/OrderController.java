@@ -35,7 +35,7 @@ public class OrderController {
     }
 
     // GET ALL
-    @GetMapping
+    @GetMapping /
     public ResponseEntity<List<OrderEntity>> getAllOrders() {
 
         return ResponseEntity.ok(
